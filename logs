@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ $# -eq 0 ]
+  then
+    echo "Please provide service name. E.G difido_difido, difido_elastic"
+    exit 1
+fi
+sudo docker service logs $1 | less

@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo docker tag difido itaiag/difido:difido
+sudo docker push itaiag/difido:difido
